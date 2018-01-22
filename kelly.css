@@ -1,7 +1,7 @@
 body, html {
     height: 100%;
     margin: 0;
-    font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+    font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif !important;
 }
 #background{
 	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('background.jpg');
@@ -26,14 +26,14 @@ body, html {
 }
 .logo{
 	height: 100px;
-    padding: 5px;
+    padding-top: 15px;
 }
 .message{
 	background-color: #fff;
     color: #000;
     text-align: center;
     border-radius: 10px;
-    padding: 10px;
+    
 }
 .thumbnails{
 	display: inline-block;
@@ -43,4 +43,20 @@ body, html {
 	width: 125px;
 	height: 125px;
 	cursor: pointer;
+}
+.carousel{
+    height: 300px !important;
+    background-color: #ad1f1f !important;
+}
+.carousel-inner{
+    height: 300px !important;
+}
+.item img {
+    height: 300px !important;
+    max-width: 100% !important;
+    margin: auto !important;
+}
+p{
+    font-size: 22px;
+    padding: 5px 10px;
 }
